@@ -1,0 +1,19 @@
+import{C as e,E as t,L as n,O as r,P as i,T as a,d as o,h as s,l as c,m as l,n as u,p as d,s as f,u as p}from"./vue-i18n-BRDQ4CzV.js";import{t as m}from"./marked.esm-B1tq9C1X.js";var h=`# Chi sono
+
+Sono Giorgia Gulino, una ricercatrice e professionista con un percorso interdisciplinare che attraversa la **cybersecurity**, la **psicologia** e la **bioinformatica**.
+
+La mia curiosità mi ha portata a esplorare le connessioni tra mente umana e sistemi tecnologici: dalla sicurezza informatica come estensione della psicologia sociale, alla bioinformatica come punto di incontro tra dati e biologia.
+
+Credo profondamente che la comprensione dell'essere umano sia il fondamento di qualsiasi tecnologia davvero efficace.
+
+Quando non sono davanti a un terminale o a un libro di neuroscienze, dipingo — perché l'arte è il linguaggio che la logica non riesce a tradurre.
+`,g=`# About me
+
+I am Giorgia Gulino, a researcher and professional with an interdisciplinary path spanning **cybersecurity**, **psychology**, and **bioinformatics**.
+
+My curiosity has led me to explore the connections between the human mind and technological systems — from cybersecurity as an extension of social psychology, to bioinformatics as the intersection of data and biology.
+
+I deeply believe that understanding human beings is the foundation of any truly effective technology.
+
+When I'm not in front of a terminal or a neuroscience book, I paint — because art is the language that logic cannot translate.
+`,_={class:`min-h-[92vh] flex flex-col items-center justify-center text-center px-6 py-24`},v={class:`max-w-xl mx-auto`},y={class:`text-[11px] uppercase tracking-[0.35em] text-mocha-500 mb-10`},b={class:`text-base text-stone-500 leading-relaxed max-w-sm mx-auto font-light`},x={class:`mt-12 flex flex-col sm:flex-row gap-8 justify-center items-center`},S={class:`border-t border-stone-100 py-24`},C={class:`max-w-2xl mx-auto px-6`},w={class:`text-4xl font-medium text-stone-800 mb-10`,style:{"font-family":`'Cormorant Garamond', Georgia, serif`}},T=[`innerHTML`],E={class:`border-t border-stone-100 bg-white py-24`},D={class:`max-w-4xl mx-auto px-6`},O={class:`grid grid-cols-1 sm:grid-cols-3 divide-y sm:divide-y-0 sm:divide-x divide-stone-100`},k={class:`text-3xl mb-5`},A={class:`text-xl font-medium text-stone-800 mb-2 group-hover:text-mocha-600 transition-colors`,style:{"font-family":`'Cormorant Garamond', Georgia, serif`}},j={class:`text-sm text-stone-400 leading-relaxed`},M={__name:`HomeView`,setup(M){let{t:N,tm:P,locale:F}=u(),I=c(()=>m.parse(F.value===`en`?g:h)),L=c(()=>P(`home.cards`));return(c,u)=>{let m=t(`RouterLink`);return e(),d(`div`,null,[p(`section`,_,[p(`div`,v,[p(`p`,y,n(i(N)(`home.tagline`)),1),u[0]||=p(`h1`,{class:`text-6xl sm:text-7xl md:text-8xl font-medium text-stone-900 leading-[0.95] mb-8`,style:{"font-family":`'Cormorant Garamond', Georgia, serif`}},[l(` Giorgia`),p(`br`),l(`Gulino `)],-1),u[1]||=p(`div`,{class:`w-10 h-px bg-mocha-300 mx-auto mb-8`},null,-1),p(`p`,b,n(i(N)(`home.subtitle`)),1),p(`div`,x,[s(m,{to:`/cv`,class:`text-[11px] uppercase tracking-[0.25em] text-stone-500 hover:text-mocha-600 transition-colors border-b border-stone-200 hover:border-mocha-400 pb-0.5`},{default:r(()=>[l(n(i(N)(`home.ctaPath`)),1)]),_:1}),s(m,{to:`/art`,class:`text-[11px] uppercase tracking-[0.25em] text-stone-500 hover:text-mocha-600 transition-colors border-b border-stone-200 hover:border-mocha-400 pb-0.5`},{default:r(()=>[l(n(i(N)(`home.ctaArt`)),1)]),_:1})])])]),p(`section`,S,[p(`div`,C,[p(`h2`,w,n(i(N)(`home.bioTitle`)),1),p(`div`,{class:`prose-content`,innerHTML:I.value},null,8,T)])]),p(`section`,E,[p(`div`,D,[p(`div`,O,[(e(!0),d(f,null,a(L.value,t=>(e(),o(m,{key:t.to,to:t.to,class:`group flex flex-col items-center text-center px-8 py-12 hover:bg-mocha-50 transition-colors`},{default:r(()=>[p(`div`,k,n(t.icon),1),p(`h3`,A,n(t.title),1),p(`p`,j,n(t.desc),1)]),_:2},1032,[`to`]))),128))])])])])}}};export{M as default};
